@@ -14,7 +14,7 @@ import PIL
 
 #export_file_url = 'https://aidris559lab4.s3.amazonaws.com/Trained_Model_For_Ant_And_Bees/full_model_export1.pkl'
 export_file_url ='https://melissamachinelearning.s3.eu-west-2.amazonaws.com/Melissa_test.pkl'
-export_file_name = 'full_model_export1.pkl'
+export_file_name = 'Melissa_test.pkl'
 
 data_transforms_with_normalization = {
     'train': transforms.Compose([

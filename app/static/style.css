@@ -2,6 +2,12 @@ body {
     background-color: #fff;
 }
 
+.bg-image {
+    background-image: url('tree.jpg');
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
 .no-display {
     display: none;
 }
@@ -11,21 +17,40 @@ body {
     padding: 10px 50px;
     text-align: center;
     font-size: 14px;
+    color: #ffffff
 }
 
 .title {
     font-size: 30px;
     margin-top: 1em;
     margin-bottom: 1em;
-    color: #262626;
+    color: #ffffff;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.words {
+    font-size: 20px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    color: #ffffff;
 }
 
 .content {
-    margin-top: 10em;
+    margin-top: 5em;
 }
 
 .analyze {
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 .upload-label {
