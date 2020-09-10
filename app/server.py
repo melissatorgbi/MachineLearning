@@ -31,7 +31,7 @@ data_transforms_with_normalization = {
     ]),
 }
 
-classes = ['ants', 'bees']
+classes = ['Phineas', 'Ferb']
 path = Path(__file__).parent
 
 app = Starlette()
